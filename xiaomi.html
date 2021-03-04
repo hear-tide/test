@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #F5F5F5;
+        }
+
+        .box {
+            width: 1229px;
+            /* width: 296px; */
+            height: 283px;
+            /* background-color: green; */
+            margin: 0 auto;
+        }
+
+        .box1 {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .box1:hover {
+            box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, .1);
+        }
+
+        .box2 {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .box2:hover {
+            box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, .1);
+        }
+
+        .box3 {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .box3:hover {
+            box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, .1);
+        }
+
+        .box4 {
+            float: right;
+        }
+
+        .box4:hover {
+            box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, .1);
+        }
+
+        .m1599 {
+            width: 296px;
+            height: 177px;
+        }
+
+        .m1599m {
+            width: 296px;
+            height: 106px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .m2099 {
+            width: 296px;
+            height: 177px;
+        }
+
+        .m2099m {
+            width: 296px;
+            height: 106px;
+            background-color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .m108mp {
+            width: 296px;
+            height: 177px;
+        }
+
+        .m108mpm {
+            width: 296px;
+            height: 106px;
+            background-color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .m3999 {
+            width: 296px;
+            height: 177px;
+        }
+
+        .m3999m {
+            width: 296px;
+            height: 106px;
+            background-color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .li1 {
+            /* 父元素盒子塌陷 */
+            margin-top: 25px;
+        }
+
+        .li2 {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+
+        .span1 {
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        .span2 {
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        .span3 {
+            margin-top: 25px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="m1599"><img src="../素材/1599.jpg"></div>
+            <div class="m1599m">
+                <ul class="text">
+                    <li class="li1">Redmi 10X系列发布会</li>
+                    <li class="li2">Redmi 10X系列发布会</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="m2099"><img src="../素材/2099.jpg"></div>
+            <div class="m2099m"><span class="span1">小米10 青春版 发布会</span></div>
+        </div>
+        <div class="box3">
+            <div class="m108mp"><img src="../素材/108mp.jpg"></div>
+            <div class="m108mpm"><span class="span2">小米10 8K手机拍大片</span></div>
+        </div>
+        <div class="box4">
+            <div class="m3999"><img src="../素材/3999.jpg"></div>
+            <div class="m3999m"><span class="span3">小米10发布会</span></div>
+        </div>
+    </div>
+</body>
+</html>
